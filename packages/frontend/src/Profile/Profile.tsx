@@ -221,6 +221,22 @@ export const Profile = ({ auth, onLoggedOut }: Props): JSX.Element => {
 					</svg>
 				</a>
 				<h1 className="App-title">NEAR Faucet for Ethereum Holders</h1>
+				<p style={{ fontWeight: 'normal' }}>
+					Get limited edition NFT{' '}
+					<a
+						href="http://bit.ly/paras-rainbow-clause"
+						target="__blank"
+						style={{
+							textDecoration: 'underline',
+							cursor: 'pointer',
+							color: 'white',
+							fontWeight: 'bold',
+						}}
+					>
+						Rainbow Clause
+					</a>{' '}
+					for free right now!
+				</p>
 			</header>
 			<div className="App-intro">
 				<div className="Profile">
