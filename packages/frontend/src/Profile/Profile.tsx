@@ -224,7 +224,7 @@ export const Profile = ({ auth, onLoggedOut }: Props): JSX.Element => {
 				<p style={{ fontWeight: 'normal' }}>
 					Get limited edition NFT{' '}
 					<a
-						href="http://bit.ly/paras-rainbow-clause"
+						href="https://twitter.com/ParasHQ/status/1380868122991726600"
 						target="__blank"
 						style={{
 							textDecoration: 'underline',
