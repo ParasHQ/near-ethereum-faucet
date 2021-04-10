@@ -194,7 +194,8 @@ export const Login = ({ onLoggedIn }: Props): JSX.Element => {
 					Get limited edition NFT{' '}
 					<a
 						href="https://twitter.com/ParasHQ/status/1380868122991726600"
-						target="__blank"
+						target="_blank"
+						rel="noreferrer"
 						style={{
 							textDecoration: 'underline',
 							cursor: 'pointer',
