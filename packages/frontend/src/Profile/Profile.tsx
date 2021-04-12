@@ -222,6 +222,23 @@ export const Profile = ({ auth, onLoggedOut }: Props): JSX.Element => {
 				</a>
 				<h1 className="App-title">NEAR Faucet for Ethereum Holders</h1>
 				<p style={{ fontWeight: 'normal' }}>
+					Register for an exclusive{' '}
+					<a
+						href="http://bit.ly/nft-drops-pillars-of-paras-f"
+						target="_blank"
+						rel="noreferrer"
+						style={{
+							textDecoration: 'underline',
+							cursor: 'pointer',
+							color: 'white',
+							fontWeight: 'bold',
+						}}
+					>
+						NFT Drops
+					</a>{' '}
+					on Paras
+				</p>
+				<p style={{ fontWeight: 'normal' }}>
 					Get limited edition NFT{' '}
 					<a
 						href="https://twitter.com/ParasHQ/status/1380868122991726600"
