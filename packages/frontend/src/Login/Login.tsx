@@ -193,7 +193,7 @@ export const Login = ({ onLoggedIn }: Props): JSX.Element => {
 				<p style={{ fontWeight: 'normal' }}>
 					Register for an exclusive{' '}
 					<a
-						href="http://bit.ly/nft-drops-pillars-of-paras-f"
+						href="http://bit.ly/nft-drops-paras"
 						target="_blank"
 						rel="noreferrer"
 						style={{
