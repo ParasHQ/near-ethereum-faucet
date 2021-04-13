@@ -238,23 +238,6 @@ export const Profile = ({ auth, onLoggedOut }: Props): JSX.Element => {
 					</a>{' '}
 					on Paras
 				</p>
-				<p style={{ fontWeight: 'normal' }}>
-					Get limited edition NFT{' '}
-					<a
-						href="https://twitter.com/ParasHQ/status/1380868122991726600"
-						target="_blank"
-						rel="noreferrer"
-						style={{
-							textDecoration: 'underline',
-							cursor: 'pointer',
-							color: 'white',
-							fontWeight: 'bold',
-						}}
-					>
-						Rainbow Clause
-					</a>{' '}
-					for free right now!
-				</p>
 			</header>
 			<div className="App-intro">
 				<div className="Profile">
