@@ -222,9 +222,9 @@ export const Profile = ({ auth, onLoggedOut }: Props): JSX.Element => {
 				</a>
 				<h1 className="App-title">NEAR Faucet for Ethereum Holders</h1>
 				<p style={{ fontWeight: 'normal' }}>
-					Register for an exclusive{' '}
+					Create and Collect NFTs on {' '}
 					<a
-						href="http://bit.ly/nft-drops-paras"
+						href="http://bit.ly/paras-ref-faucet"
 						target="_blank"
 						rel="noreferrer"
 						style={{
@@ -234,9 +234,8 @@ export const Profile = ({ auth, onLoggedOut }: Props): JSX.Element => {
 							fontWeight: 'bold',
 						}}
 					>
-						NFT Drops
-					</a>{' '}
-					on Paras
+						Paras: Digital Card Collectibles
+					</a>
 				</p>
 			</header>
 			<div className="App-intro">
