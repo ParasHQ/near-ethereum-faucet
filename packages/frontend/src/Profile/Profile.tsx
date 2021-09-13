@@ -222,9 +222,9 @@ export const Profile = ({ auth, onLoggedOut }: Props): JSX.Element => {
 				</a>
 				<h1 className="App-title">NEAR Faucet for Ethereum Holders</h1>
 				<p style={{ fontWeight: 'normal' }}>
-					Create and Collect NFTs on {' '}
+					Get your{' '}
 					<a
-						href="http://bit.ly/paras-ref-faucet"
+						href="https://bit.ly/paras-ido"
 						target="_blank"
 						rel="noreferrer"
 						style={{
@@ -234,8 +234,9 @@ export const Profile = ({ auth, onLoggedOut }: Props): JSX.Element => {
 							fontWeight: 'bold',
 						}}
 					>
-						Paras: Digital Card Collectibles
+						$PARAS token
 					</a>
+					{' '}right now
 				</p>
 			</header>
 			<div className="App-intro">
