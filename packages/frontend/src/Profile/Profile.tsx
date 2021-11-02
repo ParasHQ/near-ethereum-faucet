@@ -222,15 +222,9 @@ export const Profile = ({ auth, onLoggedOut }: Props): JSX.Element => {
 				</a>
 				<h1 className="App-title">NEAR Faucet for Ethereum Holders</h1>
 				<p style={{ fontWeight: 'normal' }}>
-<<<<<<< HEAD
-					Get your{' '}
-					<a
-						href="https://bit.ly/paras-ido"
-=======
 					Create and Collect NFTs on {' '}
 					<a
 						href="http://bit.ly/paras-ref-faucet"
->>>>>>> ac4264e... update copy
 						target="_blank"
 						rel="noreferrer"
 						style={{
@@ -240,14 +234,8 @@ export const Profile = ({ auth, onLoggedOut }: Props): JSX.Element => {
 							fontWeight: 'bold',
 						}}
 					>
-<<<<<<< HEAD
-						$PARAS token
-					</a>
-					{' '}right now
-=======
 						Paras: Digital Card Collectibles
 					</a>
->>>>>>> ac4264e... update copy
 				</p>
 			</header>
 			<div className="App-intro">
@@ -281,9 +269,8 @@ export const Profile = ({ auth, onLoggedOut }: Props): JSX.Element => {
 				type="button"
 				onClick={(e) => {
 					e.preventDefault();
-					window.location.href = `${
-						nearConfig.ClaimUrl
-					}${claim_result_key.replace('ed25519:', '')}`;
+					window.location.href = `${nearConfig.ClaimUrl
+						}${claim_result_key.replace('ed25519:', '')}`;
 				}}
 			>
 				Create Account
